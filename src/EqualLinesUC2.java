@@ -20,7 +20,6 @@ public class EqualLinesUC2 {
             length[i] = Math.sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
             System.out.println("Length of line " + (i + 1) + " : " + length[i]);
         }
-
         //Checking Equality of two Lines
         if (Objects.equals(length[0], length[1])) {
             System.out.println("The Length of Two Lines are Equal");
